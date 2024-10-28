@@ -222,3 +222,55 @@ footer a {
         font-weight: 500;
     }
     }
+ @media screen and (min-width: 378px) {
+
+    section h2 {
+        background-color: gray;
+        text-transform: capitalize;
+    }
+    
+    header {
+        font-weight: 550;
+    }
+    
+    nav ul li {
+        display:inline;
+        margin-right: 1rem;
+    }
+
+    nav ul li a {
+       font-weight: 550;
+    }
+ }
+ 
+ @media screen and (min-width:1200px) {
+ 
+    iframe {
+    width: 49%;
+    height: 25rem;
+    display: inline-block;
+ }
+
+ section {
+    display: inline-block;
+    width: 49%;
+    height: 25rem;
+    vertical-align: top;
+    border-radius: 25px;
+ }
+
+ table {
+    width: 70%;
+ }
+
+ aside div {
+    display: inline-block;
+    width: 33%;
+    margin: 0 auto;
+ }
+ 
+}
+
+
+    
+    
