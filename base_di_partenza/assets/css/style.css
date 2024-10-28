@@ -178,3 +178,47 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+@media screen and (min-width: 576px) {
+
+    header {
+        font-weight: 550;
+    }
+    
+    nav ul li {
+        display:inline;
+        margin-right: 1rem;
+    }
+
+    nav ul li a {
+       font-weight: 550;
+    }
+
+    article h1 {
+        font-size: 45px;
+    }
+
+    article h2 {
+        font-weight: bold;
+        font-size: large;
+    }
+
+    table {
+        margin: 5rem auto;
+    }
+
+    section h2 {
+        background-color: gray;
+        text-transform: capitalize;
+    }
+
+    input {
+        width: 33rem;
+        height: 3.8rem;
+    }
+
+    button {
+        padding: 1rem 2.5rem;
+        font-weight: 500;
+    }
+    }
